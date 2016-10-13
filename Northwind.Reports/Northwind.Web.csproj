@@ -177,6 +177,7 @@
     <Compile Include="Infrastructure\ServicesConfig.cs" />
     <Compile Include="Infrastructure\JsonConfigSerializer.cs" />
     <Compile Include="Infrastructure\CurrentAppSettings.cs" />
+    <Compile Include="Infrastructure\Services\EmailService.cs" />
     <Compile Include="Infrastructure\Services\ProductService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\ProductSelectorViewModel.cs" />

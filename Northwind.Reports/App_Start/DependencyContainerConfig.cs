@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using System.Web.Http;
 using System.Web.Mvc;
+using Alimana.Web.Infrastructure;
 using Autofac;
 using Autofac.Integration.Mvc;
 using Calabonga.Portal.Config;
@@ -29,6 +30,7 @@ namespace Northwind.Web {
             builder.RegisterType<ConfigServiceBase<CurrentAppSettings>>().As<IConfigService<CurrentAppSettings>>().SingleInstance();
             builder.RegisterType<JsonConfigSerializer>().As<IConfigSerializer>();
             builder.RegisterType<CacheService>().As<ICacheService>();
+            builder.RegisterType<EmailService>().As<IEmailService>();
             
             builder.RegisterType<NorthwindDbContext>().As<IContext>().InstancePerRequest();
 

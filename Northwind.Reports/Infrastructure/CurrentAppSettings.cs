@@ -8,5 +8,10 @@ namespace Northwind.Web {
         /// Current application version
         /// </summary>
         public string Version { get; set; }
+
+        /// <summary>
+        /// Email uses to send report (excel-file)
+        /// </summary>
+        public string ExportEmail { get; set; }
     }
 }
