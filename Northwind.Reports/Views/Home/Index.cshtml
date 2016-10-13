@@ -1,0 +1,106 @@
+﻿@using Northwind.Web.ViewModels
+
+@model ProductSelectorViewModel
+<div class="container">
+    <div class="page-header">
+        <h1>
+            Товары
+            <small>Northwind</small>
+        </h1>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="alert alert-info">В программе установлены по умолчанию даты периода таким образом, чтобы начало соответствовало первым записям в базе данных Northwind.</p>
+        </div>
+        <div class="col-md-12">
+            <form>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.DateStart)
+                            <input name="DateStart" type="text" value="@Model.DateStart.ToShortDateString()" class="form-control datepicker" />
+                            @Html.ValidationMessageFor(model => model.DateStart)
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.DateEnd)
+                            <input name="DateEnd" type="text" value="@Model.DateEnd.ToShortDateString()" class="form-control datepicker" />
+                            @Html.ValidationMessageFor(model => model.DateEnd)
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    <button type="submit" class="btn btn-default">Фильтровать</button>
+                </p>
+            </form>
+            @using (Html.BeginForm("export", "home", FormMethod.Get)) {
+                <input name="DateStart" type="hidden" value="@Model.DateStart.ToShortDateString()" />
+                <input name="DateEnd" type="hidden" value="@Model.DateEnd.ToShortDateString()" />
+                <p><button class="btn btn-primary" type="submit">Экспорт а EXCEL</button></p>
+            }
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <p class="alert alert-info">Фильтрация применяется только при нажатии на кнопку "Фильтровать". Отфильтрованные данные можно экспортировать в Excel нажатем кнопки "Экспорт в Excel".</p>
+            <p class="alert alert-warning">Настройки безопастности Microsoft Excel не позводяют открыть экспортированный файл без разрешения пользоватлеля. Поэтому для включения формул в выгруженном файле необходимо при первом открытии разрешить использование файла.</p>
+
+            @if (Model != null) {
+                <div class="lead">Всего найдено: <span class="label label-info">@Model.Products.TotalCount</span></div>
+                <table class="table table-bordered table-condensed">
+                    <thead>
+                        <tr>
+                            <td>№ заказа</td>
+                            <td>Дата заказа</td>
+                            <td>Категория</td>
+                            <td>Страна доставки</td>
+                            <td>Город доставки</td>
+                            <td>Адрес доставки</td>
+                            <td>Почтовый индекс доставки</td>
+                            <td>Наименование продукта</td>
+                            <td>Количество за единицу</td>
+                            <td>Количество</td>
+                            <td>Цена</td>
+                            <td>Сумма</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var product in Model.Products.Items) {
+                            <tr>
+                                <td>@product.Id</td>
+                                <td>@product.OrderDate</td>
+                                <td>@product.CategoryName</td>
+                                <td>@product.ShipCountry</td>
+                                <td>@product.ShipCity</td>
+                                <td>@product.ShipAddress</td>
+                                <td>@product.ShipPostalCode</td>
+                                <td>@product.ProductName</td>
+                                <td>@product.QuantityPerUnit</td>
+                                <td>@product.Quantity</td>
+                                <td>@product.UnitPrice</td>
+                                <td>@product.Summa</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                @Html.Pager(Model.Products, page => Url.Action("Index", new { page, size = Model.Size, startDate = Model.DateStart, endDate = Model.DateEnd }))
+            }
+        </div>
+
+    </div>
+</div>
+@section scripts {
+    <script src="~/Scripts/locales/bootstrap-datepicker.ru.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".datepicker").datepicker({ language: "ru" });
+        });
+    </script>
+
+}
