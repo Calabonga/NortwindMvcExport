@@ -7,19 +7,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 using Calabonga.Portal.Config;
-using Northwind.Web;
 
-namespace Alimana.Web.Infrastructure {
+namespace Northwind.Web.Infrastructure {
 
     public class EmailService : IEmailService {
-        private readonly IConfigService<CurrentAppSettings> _configService;
         private readonly string _robotMail;
-        private string _adminMail;
+        private readonly string _adminMail;
+        private string _mailServer;
 
         public EmailService(IConfigService<CurrentAppSettings> configService) {
-            _configService = configService;
             _robotMail = configService.Config.RobotEmail;
             _adminMail = configService.Config.AdminEmail;
+            _mailServer = configService.Config.SmtpClient;
         }
 
         public bool SendMail(string mailFrom, string mailto, string mailSubject, string mailBody, IEnumerable<HttpPostedFileBase> files) {
@@ -81,16 +80,14 @@ namespace Alimana.Web.Infrastructure {
                     message.SubjectEncoding = Encoding.UTF8;
                     message.IsBodyHtml = isHtml;
 
-                    using (var client = new SmtpClient("localhost")) {
+                    using (var client = new SmtpClient(_mailServer)) {
                         client.Credentials = CredentialCache.DefaultNetworkCredentials;
                         client.Send(message);
-                        //#if !DEBUG
-                        //#endif
                     }
                 }
                 mailSended = true;
             }
-            catch (SmtpException exception) {
+            catch {
                 mailSended = false;
             }
             return mailSended;

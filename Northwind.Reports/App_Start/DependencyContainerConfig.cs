@@ -1,11 +1,10 @@
 ﻿using System.Reflection;
-using System.Web.Http;
 using System.Web.Mvc;
-using Alimana.Web.Infrastructure;
 using Autofac;
 using Autofac.Integration.Mvc;
 using Calabonga.Portal.Config;
 using Northwind.Data;
+using Northwind.Web.Infrastructure;
 
 namespace Northwind.Web {
 

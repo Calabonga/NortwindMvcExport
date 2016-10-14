@@ -42,24 +42,28 @@ namespace Northwind.Web.Controllers {
         }
 
         public async Task<ExcelResult> Export(DateTime dateStart, DateTime dateEnd) {
-            var fileName = "products_export.xls";
+            const string fileName = "products_export.xls";
             var items = await _productService.GetDataForExportAsync(dateStart, dateEnd);
             var title = $"Отчет по товарам с {dateStart.ToShortDateString()} по {dateEnd.ToShortDateString()}";
             var html = ExportBuilder.Build(items, title);
             var emailTo = _configService.Config.ExportEmail;
             var emailFrom = _configService.Config.RobotEmail;
 
+            // prepare virtual file
             using (var stream = new MemoryStream())
             using (var writer = new StreamWriter(stream)) {
-
                 writer.Write(html);
                 writer.Flush();
                 stream.Position = 0;
+
+                // Create memory file to send by email
                 using (var fileImage = new MemoryFile(stream, "application/vnd.ms-excel", fileName)) {
+
+                    //Sending email
                     _emailService.SendMail(emailFrom, emailTo, title, title, new List<HttpPostedFileBase> { fileImage });
-                    return new ExcelResult(fileName, html);
                 }
             }
+            return new ExcelResult(fileName, html);
         }
     }
 }
