@@ -2,6 +2,7 @@
 using System.IO;
 using System.Net;
 using System.Net.Mail;
+using System.Net.Mime;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
@@ -67,7 +68,8 @@ namespace Alimana.Web.Infrastructure {
                 using (var message = new MailMessage(mailFrom, mailto, mailSubject, mailBody)) {
                     if (files != null) {
                         foreach (var file in files) {
-                            var data = new Attachment(file.InputStream, file.ContentType);
+                            var contentType = new ContentType(file.ContentType);
+                            var data = new Attachment(file.InputStream, contentType) { Name = file.FileName };
                             var disposition = data.ContentDisposition;
                             disposition.CreationDate = File.GetCreationTime(file.FileName);
                             disposition.ModificationDate = File.GetLastWriteTime(file.FileName);
@@ -82,8 +84,8 @@ namespace Alimana.Web.Infrastructure {
                     using (var client = new SmtpClient("localhost")) {
                         client.Credentials = CredentialCache.DefaultNetworkCredentials;
                         client.Send(message);
-//#if !DEBUG
-//#endif
+                        //#if !DEBUG
+                        //#endif
                     }
                 }
                 mailSended = true;
@@ -126,8 +128,7 @@ namespace Alimana.Web.Infrastructure {
 
 
             }
-            catch
-            {
+            catch {
                 // ignored
             }
             return Task.FromResult(0);
