@@ -1,0 +1,881 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Calabonga</Author>
+  <Created>2016-10-14T07:11:08Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10230</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="204" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" ss:Size="16" ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Color="#000888"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Color="#000888"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Color="#000888"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Color="#000888"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#DEDEDE" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Color="#000888"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Color="#000888"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Color="#000888"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Color="#000888"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#CCCCCC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Лист 1">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="88" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="6" ss:StyleID="s63"><Data ss:Type="String">Отчет по товарам с 01.01.1997 по 31.01.1997</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Номер заказа</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Дата заказа</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Артикул товара</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Наименование товара</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Количество</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Цена</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Сумма</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10400</Data></Cell>
+    <Cell><Data ss:Type="String">01.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="String">Thüringer Rostbratwurst</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="Number">99</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">2079</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10400</Data></Cell>
+    <Cell><Data ss:Type="String">01.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">Steeleye Stout</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">14.4</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">504</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10400</Data></Cell>
+    <Cell><Data ss:Type="String">01.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell><Data ss:Type="String">Maxilaku</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">480</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10401</Data></Cell>
+    <Cell><Data ss:Type="String">01.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">Nord-Ost Matjeshering</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">20.7</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">372.59999999999997</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10401</Data></Cell>
+    <Cell><Data ss:Type="String">01.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="String">Gnocchi di nonna Alice</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">30.4</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">2128</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10401</Data></Cell>
+    <Cell><Data ss:Type="String">01.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell><Data ss:Type="String">Louisiana Fiery Hot Pepper Sauce</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">16.8</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">336</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10401</Data></Cell>
+    <Cell><Data ss:Type="String">01.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">71</Data></Cell>
+    <Cell><Data ss:Type="String">Fløtemysost</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">17.2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">1032</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10402</Data></Cell>
+    <Cell><Data ss:Type="String">02.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">Tunnbröd</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">7.2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">432</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10402</Data></Cell>
+    <Cell><Data ss:Type="String">02.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">63</Data></Cell>
+    <Cell><Data ss:Type="String">Vegie-spread</Data></Cell>
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell><Data ss:Type="Number">35.1</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">2281.5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10403</Data></Cell>
+    <Cell><Data ss:Type="String">03.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">Pavlova</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="Number">13.9</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">291.90000000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10403</Data></Cell>
+    <Cell><Data ss:Type="String">03.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="String">Chocolade</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">10.199999999999999</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">714</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10404</Data></Cell>
+    <Cell><Data ss:Type="String">03.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">Gumbär Gummibärchen</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">24.9</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">747</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10404</Data></Cell>
+    <Cell><Data ss:Type="String">03.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="String">Singaporean Hokkien Fried Mee</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">11.2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">448</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10404</Data></Cell>
+    <Cell><Data ss:Type="String">03.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell><Data ss:Type="String">Maxilaku</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">480</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10405</Data></Cell>
+    <Cell><Data ss:Type="String">06.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">Aniseed Syrup</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">400</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10406</Data></Cell>
+    <Cell><Data ss:Type="String">07.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Chai</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">14.4</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">144</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10406</Data></Cell>
+    <Cell><Data ss:Type="String">07.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">Sir Rodney's Scones</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10406</Data></Cell>
+    <Cell><Data ss:Type="String">07.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">Rössle Sauerkraut</Data></Cell>
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="Number">36.4</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">1528.8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10406</Data></Cell>
+    <Cell><Data ss:Type="String">07.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="String">Inlagd Sill</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">15.2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">76</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10406</Data></Cell>
+    <Cell><Data ss:Type="String">07.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">Boston Crab Meat</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">14.7</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">29.4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10407</Data></Cell>
+    <Cell><Data ss:Type="String">07.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">Queso Cabrales</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">16.8</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">504</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10407</Data></Cell>
+    <Cell><Data ss:Type="String">07.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">69</Data></Cell>
+    <Cell><Data ss:Type="String">Gudbrandsdalsost</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">28.8</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">432</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10407</Data></Cell>
+    <Cell><Data ss:Type="String">07.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">71</Data></Cell>
+    <Cell><Data ss:Type="String">Fløtemysost</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">17.2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">258</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10408</Data></Cell>
+    <Cell><Data ss:Type="String">08.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell><Data ss:Type="String">Gravad lax</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">20.8</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">208</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10408</Data></Cell>
+    <Cell><Data ss:Type="String">08.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">54</Data></Cell>
+    <Cell><Data ss:Type="String">Tourtière</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">5.9</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">35.400000000000006</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10408</Data></Cell>
+    <Cell><Data ss:Type="String">08.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="String">Tarte au sucre</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">39.4</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">1379</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10409</Data></Cell>
+    <Cell><Data ss:Type="String">09.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">Tofu</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">18.600000000000001</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">223.20000000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10409</Data></Cell>
+    <Cell><Data ss:Type="String">09.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">Sir Rodney's Scones</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">96</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10410</Data></Cell>
+    <Cell><Data ss:Type="String">10.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">Geitost</Data></Cell>
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">98</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10410</Data></Cell>
+    <Cell><Data ss:Type="String">10.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell><Data ss:Type="String">Raclette Courdavault</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">704</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10411</Data></Cell>
+    <Cell><Data ss:Type="String">10.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="String">Jack's New England Clam Chowder</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">7.7</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">192.5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10411</Data></Cell>
+    <Cell><Data ss:Type="String">10.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="String">Gula Malacca</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">15.5</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">620</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10411</Data></Cell>
+    <Cell><Data ss:Type="String">10.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell><Data ss:Type="String">Raclette Courdavault</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">396</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10412</Data></Cell>
+    <Cell><Data ss:Type="String">13.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">Tofu</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">18.600000000000001</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">372</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10413</Data></Cell>
+    <Cell><Data ss:Type="String">14.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Chai</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">14.4</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">345.6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10413</Data></Cell>
+    <Cell><Data ss:Type="String">14.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="String">Tarte au sucre</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">39.4</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">1576</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10413</Data></Cell>
+    <Cell><Data ss:Type="String">14.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">76</Data></Cell>
+    <Cell><Data ss:Type="String">Lakkalikööri</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">14.4</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">201.6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10414</Data></Cell>
+    <Cell><Data ss:Type="String">14.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">Teatime Chocolate Biscuits</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">7.3</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">131.4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10414</Data></Cell>
+    <Cell><Data ss:Type="String">14.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">Geitost</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10415</Data></Cell>
+    <Cell><Data ss:Type="String">15.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">Alice Mutton</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">31.2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">62.4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10415</Data></Cell>
+    <Cell><Data ss:Type="String">15.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">Geitost</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">40</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10416</Data></Cell>
+    <Cell><Data ss:Type="String">16.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">Teatime Chocolate Biscuits</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">7.3</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">146</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10416</Data></Cell>
+    <Cell><Data ss:Type="String">16.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">53</Data></Cell>
+    <Cell><Data ss:Type="String">Perth Pasties</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">26.2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">262</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10416</Data></Cell>
+    <Cell><Data ss:Type="String">16.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="String">Ravioli Angelo</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">15.6</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">312</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10417</Data></Cell>
+    <Cell><Data ss:Type="String">16.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="String">Côte de Blaye</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">210.8</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">10540</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10417</Data></Cell>
+    <Cell><Data ss:Type="String">16.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="String">Spegesild</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">9.6</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">19.2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10417</Data></Cell>
+    <Cell><Data ss:Type="String">16.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">68</Data></Cell>
+    <Cell><Data ss:Type="String">Scottish Longbreads</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">360</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10417</Data></Cell>
+    <Cell><Data ss:Type="String">16.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell><Data ss:Type="String">Original Frankfurter grüne Soße</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">10.4</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">364</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10418</Data></Cell>
+    <Cell><Data ss:Type="String">17.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">Chang</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">15.2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">912</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10418</Data></Cell>
+    <Cell><Data ss:Type="String">17.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">Zaanse koeken</Data></Cell>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">7.6</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">418</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10418</Data></Cell>
+    <Cell><Data ss:Type="String">17.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+    <Cell><Data ss:Type="String">Sirop d'érable</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">22.8</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">364.8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10418</Data></Cell>
+    <Cell><Data ss:Type="String">17.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">74</Data></Cell>
+    <Cell><Data ss:Type="String">Longlife Tofu</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">120</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10419</Data></Cell>
+    <Cell><Data ss:Type="String">20.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">Camembert Pierrot</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">27.2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">1632</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10419</Data></Cell>
+    <Cell><Data ss:Type="String">20.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">69</Data></Cell>
+    <Cell><Data ss:Type="String">Gudbrandsdalsost</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">28.8</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">576</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10420</Data></Cell>
+    <Cell><Data ss:Type="String">21.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">Mishi Kobe Niku</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">77.599999999999994</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">1552</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10420</Data></Cell>
+    <Cell><Data ss:Type="String">21.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">Konbu</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">4.8</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">9.6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10420</Data></Cell>
+    <Cell><Data ss:Type="String">21.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="String">Outback Lager</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">96</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10420</Data></Cell>
+    <Cell><Data ss:Type="String">21.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">73</Data></Cell>
+    <Cell><Data ss:Type="String">Röd Kaviar</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10421</Data></Cell>
+    <Cell><Data ss:Type="String">21.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">Teatime Chocolate Biscuits</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">7.3</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">29.2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10421</Data></Cell>
+    <Cell><Data ss:Type="String">21.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">Gumbär Gummibärchen</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">24.9</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">747</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10421</Data></Cell>
+    <Cell><Data ss:Type="String">21.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">53</Data></Cell>
+    <Cell><Data ss:Type="String">Perth Pasties</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">26.2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">393</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10421</Data></Cell>
+    <Cell><Data ss:Type="String">21.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell><Data ss:Type="String">Original Frankfurter grüne Soße</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">10.4</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">104</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10422</Data></Cell>
+    <Cell><Data ss:Type="String">22.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">Gumbär Gummibärchen</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">24.9</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">49.8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10423</Data></Cell>
+    <Cell><Data ss:Type="String">23.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="String">Gorgonzola Telino</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">140</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10423</Data></Cell>
+    <Cell><Data ss:Type="String">23.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell><Data ss:Type="String">Raclette Courdavault</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">880</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10424</Data></Cell>
+    <Cell><Data ss:Type="String">23.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">Steeleye Stout</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">14.4</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">864</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10424</Data></Cell>
+    <Cell><Data ss:Type="String">23.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="String">Côte de Blaye</Data></Cell>
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell><Data ss:Type="Number">210.8</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">10329.200000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10424</Data></Cell>
+    <Cell><Data ss:Type="String">23.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">68</Data></Cell>
+    <Cell><Data ss:Type="String">Scottish Longbreads</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10425</Data></Cell>
+    <Cell><Data ss:Type="String">24.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="String">Pâté chinois</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">19.2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">192</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10425</Data></Cell>
+    <Cell><Data ss:Type="String">24.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">76</Data></Cell>
+    <Cell><Data ss:Type="String">Lakkalikööri</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">14.4</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">288</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10426</Data></Cell>
+    <Cell><Data ss:Type="String">27.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="String">Gnocchi di nonna Alice</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">30.4</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">152</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10426</Data></Cell>
+    <Cell><Data ss:Type="String">27.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">64</Data></Cell>
+    <Cell><Data ss:Type="String">Wimmers gute Semmelknödel</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">26.6</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">186.20000000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10427</Data></Cell>
+    <Cell><Data ss:Type="String">27.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">Tofu</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">18.600000000000001</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">651</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10428</Data></Cell>
+    <Cell><Data ss:Type="String">28.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="String">Spegesild</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">9.6</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">192</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10429</Data></Cell>
+    <Cell><Data ss:Type="String">29.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">Valkoinen suklaa</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">520</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10429</Data></Cell>
+    <Cell><Data ss:Type="String">29.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">63</Data></Cell>
+    <Cell><Data ss:Type="String">Vegie-spread</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">35.1</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">1228.5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10430</Data></Cell>
+    <Cell><Data ss:Type="String">30.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">Alice Mutton</Data></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">31.2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">1404</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10430</Data></Cell>
+    <Cell><Data ss:Type="String">30.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">Sir Rodney's Scones</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">400</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10430</Data></Cell>
+    <Cell><Data ss:Type="String">30.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="String">Gnocchi di nonna Alice</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30.4</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">912</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10430</Data></Cell>
+    <Cell><Data ss:Type="String">30.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell><Data ss:Type="String">Raclette Courdavault</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">3080</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10431</Data></Cell>
+    <Cell><Data ss:Type="String">30.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">Alice Mutton</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">31.2</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">1560</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10431</Data></Cell>
+    <Cell><Data ss:Type="String">30.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">Boston Crab Meat</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">14.7</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">735</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10431</Data></Cell>
+    <Cell><Data ss:Type="String">30.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">Zaanse koeken</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">7.6</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">228</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10432</Data></Cell>
+    <Cell><Data ss:Type="String">31.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">Gumbär Gummibärchen</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">24.9</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">249</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10432</Data></Cell>
+    <Cell><Data ss:Type="String">31.01.1997 0:00:00</Data></Cell>
+    <Cell><Data ss:Type="Number">54</Data></Cell>
+    <Cell><Data ss:Type="String">Tourtière</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">5.9</Data></Cell>
+    <Cell ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">236</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=AVERAGE(R[-86]C:R[-1]C)"><Data
+      ss:Type="Number">24.485882352941179</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=SUM(R[-86]C:R[-1]C)"><Data ss:Type="Number">66692.800000000003</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="5"/>
+    <Footer x:Margin="5"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R1C7</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
