@@ -5,3 +5,6 @@
 
 ## Screenshot
 ![screenshot](/screenshot.png)
+
+## Sample of the export file
+ You can download a sample of the exported file [products_export.xls](/products_export.xls)
